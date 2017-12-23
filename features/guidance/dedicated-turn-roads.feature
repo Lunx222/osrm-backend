@@ -1074,5 +1074,5 @@ Feature: Slipways and Dedicated Turn Lanes
 
 
        When I route I should get
-            | waypoints | route   | turns                                      | locations |
-            | s,f       | road,,, | depart,turn right,turn slight right,arrive | s,a,c,f   |
+            | waypoints | route  | turns                    | locations |
+            | s,f       | road,, | depart,turn right,arrive | s,a,f     |
