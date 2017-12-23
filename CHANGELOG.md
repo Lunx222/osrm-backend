@@ -1,7 +1,14 @@
 # UNRELEASED
+  - Changes from 5.14.2:
+    - Bugfixes:
+      - FIXED #4756: Removed too restrictive road name check in the sliproad handler
+
+# 5.14.2
   - Changes from 5.14.1:
     - Bugfixes:
       - FIXED #4727: Erroring when a old .core file is present.
+      - FIXED #4642: Update checks for EMPTY_NAMEID to check for empty name strings
+      - FIXED #4738: Fix potential segmentation fault
     - Node.js Bindings:
       - ADDED: Exposed new `max_radiuses_map_matching` option from `EngingConfig` options
     - Tools:
